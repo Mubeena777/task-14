@@ -11,7 +11,7 @@ In this task, I created a free virtual machine (VM) in my cloud account (AWS/GCP
 1. Login to Your Cloud VM via SSH from Kali Linux
    - Open your Kali Linux terminal.
    - Use the following SSH command to log in to the VM:
-     "ssh Alika@20.251.219.49
+     "ssh Mubeena@13.66.224.17
 "
    -  Capture a screenshot showing successful SSH login which is (aws).
 
@@ -34,7 +34,7 @@ In this task, I created a free virtual machine (VM) in my cloud account (AWS/GCP
 5. Access the Web Page via Local Browser
    - Open a web browser on your local machine and enter the public IP of your cloud VM:
      "http://<your-vm-public-ip>"
-     "http://20.251.219.49/"
+     "http://13.66.224.17/"
    - Capture a screenshot of the webpage being served from the cloud VM.
 
 6. Install PHP and MySQL on the VM
@@ -58,8 +58,8 @@ In this task, I created a free virtual machine (VM) in my cloud account (AWS/GCP
 
    - Create a Database:
      a)."CREATE DATABASE user_registration;"
-     b)."CREATE USER 'Alika'@'localhost' IDENTIFIED BY 'pswd123';
-        GRANT ALL PRIVILEGES ON user_registration.* TO 'webuser'@'localhost';
+     b)."CREATE USER 'Mubeena'@'localhost' IDENTIFIED BY 'MubeenaMubi@123';
+        GRANT ALL PRIVILEGES ON user_registration.* TO 'Mubeena'@'localhost';
         FLUSH PRIVILEGES;"
      c)."USE user_registration;"
 
@@ -81,7 +81,7 @@ In this task, I created a free virtual machine (VM) in my cloud account (AWS/GCP
    - Write or copy a PHP registration script that allows users to register their details (username, email, password) and stores them in the users table.
    - Ensure the registration form connects to the MySQL database and inserts data correctly.
    - Test the registration page by accessing it from your browser:
-     "http://20.251.219.49/register.php"
+     "http://13.66.224.17/register.php"
 
 10. Login as the Created User
     - After registering a new user, log in using the same credentials.
@@ -92,7 +92,7 @@ In this task, I created a free virtual machine (VM) in my cloud account (AWS/GCP
     - Share your web server’s public IP with friends or colleagues to verify if they can access the registration and login pages.
 
 ## Public IP
-- The public IP address of the VM is: `20.251.219.49`
+- The public IP address of the VM is: `13.66.224.17`
 
 ## Conclusion
 This task demonstrated the process of setting up a free VM, deploying a web application, and creating a user registration system. The web application is now accessible to anyone using the public IP.
